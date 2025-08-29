@@ -6,6 +6,8 @@ Will demonstrate knowledge of:
 - Flexbox
     - Alignment
     - Axes
+    - Positioning elements
+    - Flex containers/items
 - Basic HTML
 - Basic CSS
 
