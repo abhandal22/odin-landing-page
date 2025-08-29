@@ -1,5 +1,5 @@
 * {
-    font-family: "Roboto", sans-serif; 
+    font-family: Roboto, sans-serif; 
 }
 
 body {
@@ -90,7 +90,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 150px 100px 150px;
+    padding: 0px 150px 75px 150px;
 }
 
 .info-header {
@@ -124,4 +124,24 @@ button {
 
 .caption {
     color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 250px 50px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.name {
+    align-self: flex-end;
+    font-weight: bold;
 }
