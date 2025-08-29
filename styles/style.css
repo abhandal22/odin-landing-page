@@ -76,7 +76,7 @@ li {
     width: 400px;
 }
 
-button {
+.intro-button, .call-button {
     background-color: #3882F6;
     border-radius: 6px;
     border: none;
@@ -106,6 +106,7 @@ button {
     text-align: center;
     justify-content: space-evenly;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .pair {
@@ -144,4 +145,40 @@ button {
 .name {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 150px 100px 150px;
+}
+
+.call-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    border-radius: 12px;
+}
+
+.call-button {
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+}
+
+.call-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.call-body {
+    color: #E5E7EB;
+    margin-top: 0;
 }
