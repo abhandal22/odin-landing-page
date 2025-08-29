@@ -7,8 +7,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* margin-left: 150px; */
-    /* margin-right: 150px; */
 }
 
 .intro {
@@ -21,7 +19,6 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* flex-shrink: 0; */
 }
 
 .logo {
